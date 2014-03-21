@@ -1,0 +1,68 @@
+body{
+    width:400px;
+}
+label{
+    float:left;
+    clear:both;
+    display:block;
+}
+label span{
+    width:70px;
+    font-size:18px;
+    float:left;
+    font-style: bold;
+}
+legend{
+    box-shadow: 0 1px 16px #666;
+    -moz-box-shadow: 0 1px 16px #666;
+    -webkit-box-shadow: 0 1px 16px #666;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center,arial;
+    font:bold 18px;
+    display:block;
+}
+fieldset{
+    border-radius: 10px;
+}
+fieldset input[type=submit]{
+    float:left;
+    clear:both;  
+    display:block;
+}
+fieldset input[type=number]{
+    font-size:15px;
+    padding: 5px;
+}
+.descricao{
+    display: block;
+    font-size: 12px;
+    width:200px;
+    float: left;
+    padding: 3px;
+}
+.descricaoIMC{
+    display: block;
+    font-size: 12px;
+    width:120px;
+    float: left;
+}
+.titulo{
+    width:120px;
+}
+.botao a{
+    text-align: center;
+    clear: both;
+    width: 120px;
+    height: 20px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #999;
+    color: #666;
+}
+.botao a:hover{
+    background-color: #888;
+    color:white;
+}
