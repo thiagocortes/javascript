@@ -1,0 +1,21 @@
+body{
+	width:400px;
+}
+label{
+	float:left;
+	font: 12px bold;
+	padding: 3px;
+}
+span{
+	float: left;
+	width: 130px;
+}
+input{
+	width:150px;
+}
+.usuario{
+	font: 16px bold;
+	display: block;
+	clear:both;
+	padding-bottom: 20px;
+}
